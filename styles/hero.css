@@ -11,6 +11,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 175px;
+
+    .btn {
+        width: 230px;
+        height: 65px;
+    }
 }
 
 .hero__title {
@@ -24,13 +29,6 @@
     color: var(--co-light-black);
     font-weight: 400;
     font-size: 20px;
-}
-
-.hero__content {
-    .btn {
-        width: 230px;
-        height: 65px;
-    }
 }
 
 @media (max-width: 768px) {

@@ -19,6 +19,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+
+    .btn {
+        margin-top: 80px;
+        width: 240px;
+        height: 65px;
+    }
 }
 
 .success__content .btn:hover {
@@ -35,14 +41,6 @@
     font-weight: 600;
     font-size: 25px;
     color: var(--co-white);
-}
-
-.success__content {
-    .btn {
-        margin-top: 80px;
-        width: 240px;
-        height: 65px;
-    }
 }
 
 .success__video {
