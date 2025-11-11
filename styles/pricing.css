@@ -1,0 +1,33 @@
+.pricing {
+    background-color: var(--co-dark-green);
+    padding: 95px 0px 145px;
+}
+
+.pricing__content {
+    padding: 0 0 0 30px;
+    color: var(--co-white)
+}
+
+.pricing__title {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.pricing__nav {
+    margin-top: 65px;
+}
+
+.pricing__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.pricing__nav-item {}
+
+.pricing__nav-link {
+    font-weight: 600;
+    font-size: 25px;
+}
